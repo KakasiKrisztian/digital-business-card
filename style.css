@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+
+    background: #23252C;
+}
+
+.profile-pic{
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+
+    background: url(.png);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info-header{
+    position: absolute;
+    width: 178.06px;
+    height: 25.81px;
+    left: 186px;
+    top: 360px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.info-sub-header{
+    position: absolute;
+    width: 178.06px;
+    height: 14.19px;
+    left: 186px;
+    top: 405px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+
+.button-one{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.button-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+
+    background: #5093E2;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.info-site{
+    position: absolute;
+    width: 228px;
+    height: 16px;
+    left: 161px;
+    top: 432px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.about-header{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 525px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+.about-desc{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 561px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+}
+
+.interest-header{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 640px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+.interest-desc{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 675px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+}
+
+.footer{
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.twitter{
+    width: 21px;
+    position: absolute;
+    left: 27.36%;
+    right: 61.09%;
+    top: 30.75%;
+    bottom: 7.37%;
+
+    background: #918E9B;
+}
+
+.facebook{
+    width: 19px;
+    margin-right: 20px;
+    position: absolute;
+    left: 40.27%;
+    right: 52.18%;
+    top: 30.75%;
+    bottom: 7.37%;
+
+    background-color: #918E9B;
+}
+
+.insta{
+    width: 25px;
+    position: absolute;
+    left: 52.18%;
+    right: 43.27%;
+    top: 30.75%;
+    bottom: 7.37%;
+
+    background: #918E9B;
+}
+
+.linkedin{
+    width: 20px;
+    position: absolute;
+    left: 67%;
+    right: 34.45%;
+    top: 30.8%;
+    bottom: 7.32%;
+
+    background: #918E9B;
+}
+
+.rectangle-91{
+    position: absolute;
+    /* width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px; */
+
+    background: #1A1B21;
+}
